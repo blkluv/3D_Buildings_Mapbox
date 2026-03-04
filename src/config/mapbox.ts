@@ -1,11 +1,11 @@
 export const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibWl0cmkyMiIsImEiOiJjbTVubGQ4OXkwYm5vMmpzODFuaHQzeG05In0.Eo4oFInnAE9TI0HuM87Tog';
-
+};
 export const DEFAULT_MAP_CONFIG = {
-  style: 'mapbox://styles/mapbox/streets-v12',
-  center: [26.1025, 44.4268] as [number, number], // Bucharest, Romania (University area)
-  zoom: 15.5,
-  pitch: 45,
-  bearing: -17.6,
+  style: 'mapbox://styles/mapbox/light-v11', 
+  center: [-84.4230, 33.6550] as [number, number], 
+  zoom: 10.5, 
+  pitch: 60, 
+  bearing: -10,
   antialias: true
 };
 
