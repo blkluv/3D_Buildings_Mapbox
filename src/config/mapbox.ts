@@ -1,5 +1,5 @@
 export const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoibWl0cmkyMiIsImEiOiJjbTVubGQ4OXkwYm5vMmpzODFuaHQzeG05In0.Eo4oFInnAE9TI0HuM87Tog';
-};
+
 export const DEFAULT_MAP_CONFIG = {
   style: 'mapbox://styles/mapbox/light-v11', 
   center: [-84.4230, 33.6550] as [number, number], 
